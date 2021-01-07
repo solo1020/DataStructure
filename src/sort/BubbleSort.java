@@ -2,14 +2,14 @@ package sort;
 
 /**
  * @ClassName sort.BubbleSort
- * @description:
+ * @description: 冒泡排序
  * @author: isquz
  * @time: 2021/1/3 0:16
  */
 public class BubbleSort {
     public static void main(String[] args) {
 
-        int[] arr = {4,6,8,7,9,2,10,1};
+        int[] arr = {4,6,8,7,9,2,10,1,13,12};
         int[] arr1 = {4,6,8,7,9,2,10,1};
         bubbleSort(arr);
         for(int i = 0; i < arr.length; i++){
@@ -50,7 +50,7 @@ public class BubbleSort {
         for(int i = 0; i < n; i++){
             for(int j = 0; j < n - i; j++){
                 if(arr[j] > arr[j+1]){
-//                    System.out.println("change " + j + " and " + (j+1) + ": " + arr[j] + " - " + arr[j+1]);
+                    System.out.println("change " + j + " and " + (j+1) + ": " + arr[j] + " - " + arr[j+1]);
                     temp = arr[j];
                     arr[j] = arr[j+1];
                     arr[j+1] = temp;

@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 /**
  * @ClassName ChooseSort1
- * @description:
+ * @description: 选择排序
  * @author: isquz
  * @time: 2021/1/3 23:41
  */
